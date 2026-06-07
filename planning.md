@@ -160,6 +160,8 @@ graph TD
         K --> L[Groq Llama-3.3-70b Cloud Inference<br>Generate Grounded Response]:::stage
     end
     L --> M[Streamlit UI Chat Output]:::source
+```
+
 ---
 
 ## AI Tool Plan
