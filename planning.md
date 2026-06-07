@@ -144,7 +144,7 @@ graph TD
     end
     subgraph Stage 2: Chunking Strategy
         C --> D[RecursiveCharacterTextSplitter<br>LangChain]:::tool
-        D --> E[Create Small Text Chunks<br>Size: 600 chars | Overlap: 120 chars]:::stage
+        D --> E["Create Small Text Chunks<br>Size: 600 chars | Overlap: 120 chars"]:::stage
     end
     subgraph Stage 3: Embedding & Vector Store
         E --> F[all-MiniLM-L6-v2<br>SentenceTransformers]:::tool
